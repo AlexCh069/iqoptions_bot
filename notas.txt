@@ -1,0 +1,11 @@
+- postgress
+USER ares
+PASSWORD 'ares069'
+DATABASE iqoptions_data ;
+
+-acceder a postgress desde el bash 
+sudo -u postgres psql
+
+- Prueba de conexion 
+psql -h localhost -U ares -d iqoptions_data
+
