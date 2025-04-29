@@ -1,0 +1,10 @@
+[2025-04-28T21:03:39.393-0500] {processor.py:186} INFO - Started process (PID=17379) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-04-28T21:03:39.393-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-04-28T21:03:39.394-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:39.394-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-04-28T21:03:39.396-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-04-28T21:03:39.403-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2025-04-28T21:04:56.099-0500] {processor.py:186} INFO - Started process (PID=17803) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-04-28T21:04:56.101-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-04-28T21:04:56.103-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:56.102-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-04-28T21:04:56.104-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-04-28T21:04:56.112-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds

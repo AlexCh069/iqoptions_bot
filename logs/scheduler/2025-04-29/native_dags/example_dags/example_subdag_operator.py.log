@@ -1,0 +1,46 @@
+[2025-04-28T21:03:24.966-0500] {processor.py:186} INFO - Started process (PID=17219) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:03:24.966-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-04-28T21:03:24.967-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:24.967-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:03:24.982-0500] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:03:25.064-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.063-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2025-04-28T21:03:25.078-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.078-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2025-04-28T21:03:25.090-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.089-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2025-04-28T21:03:25.111-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.110-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_subdag_operator
+[2025-04-28T21:03:25.123-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.123-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_subdag_operator
+[2025-04-28T21:03:25.136-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.136-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_subdag_operator
+[2025-04-28T21:03:25.148-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.148-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_subdag_operator
+[2025-04-28T21:03:25.149-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.148-0500] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-28T21:03:25.156-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.156-0500] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2025-04-28T21:03:25.156-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.156-0500] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator
+[2025-04-28T21:03:25.156-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.156-0500] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2025-04-28T21:03:25.161-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.161-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-04-28T21:03:25.161-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.161-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-28T21:03:25.161-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.161-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-28T21:03:25.167-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.167-0500] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-28T21:03:25.170-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.170-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-28T21:03:25.171-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:25.171-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-28T21:03:25.190-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.228 seconds
+[2025-04-28T21:04:21.846-0500] {processor.py:186} INFO - Started process (PID=17665) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:04:21.849-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-04-28T21:04:21.851-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:21.851-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:04:21.869-0500] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:04:21.877-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:21.877-0500] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-28T21:04:21.889-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:21.889-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-04-28T21:04:21.891-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:21.891-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-28T21:04:21.891-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:21.891-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-28T21:04:21.895-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:21.895-0500] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-28T21:04:21.897-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:21.897-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-28T21:04:21.897-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:21.897-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-28T21:04:21.913-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.071 seconds
+[2025-04-28T21:05:15.468-0500] {processor.py:186} INFO - Started process (PID=17856) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:05:15.469-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-04-28T21:05:15.470-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:15.470-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:05:15.484-0500] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-28T21:05:15.492-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:15.492-0500] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-28T21:05:15.503-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:15.503-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-04-28T21:05:15.505-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:15.505-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-28T21:05:15.505-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:15.505-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-28T21:05:15.509-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:15.508-0500] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-28T21:05:15.511-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:15.511-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-28T21:05:15.511-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:15.511-0500] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-28T21:05:15.525-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.060 seconds

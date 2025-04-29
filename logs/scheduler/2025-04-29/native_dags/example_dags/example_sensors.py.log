@@ -1,0 +1,29 @@
+[2025-04-28T21:02:42.125-0500] {processor.py:186} INFO - Started process (PID=17032) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:02:42.126-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-28T21:02:42.127-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.127-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:02:42.134-0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:02:42.221-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.220-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-04-28T21:02:42.237-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.236-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-04-28T21:02:42.249-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.248-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-04-28T21:02:42.270-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.269-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-04-28T21:02:42.281-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.281-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-04-28T21:02:42.292-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.292-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-04-28T21:02:42.305-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.305-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-04-28T21:02:42.306-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.306-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:02:42.313-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.313-0500] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-04-28T21:02:42.314-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:42.314-0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-28T21:02:42.336-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.215 seconds
+[2025-04-28T21:03:46.094-0500] {processor.py:186} INFO - Started process (PID=17462) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:03:46.095-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-28T21:03:46.097-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:46.096-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:03:46.105-0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:03:46.120-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:46.119-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:03:46.130-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:46.130-0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-28T21:03:46.152-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2025-04-28T21:04:37.713-0500] {processor.py:186} INFO - Started process (PID=17760) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:04:37.715-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-28T21:04:37.716-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:37.716-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:04:37.724-0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-28T21:04:37.736-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:37.736-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:37.744-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:37.744-0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-28T21:04:37.765-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.056 seconds

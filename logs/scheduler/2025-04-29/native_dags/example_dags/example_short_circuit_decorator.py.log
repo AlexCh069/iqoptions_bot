@@ -1,0 +1,29 @@
+[2025-04-28T21:02:39.484-0500] {processor.py:186} INFO - Started process (PID=16966) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:02:39.485-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-04-28T21:02:39.486-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.486-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:02:39.494-0500] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:02:39.576-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.575-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_short_circuit_decorator
+[2025-04-28T21:02:39.593-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.593-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:example_short_circuit_decorator
+[2025-04-28T21:02:39.605-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.604-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_short_circuit_decorator
+[2025-04-28T21:02:39.629-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.629-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_short_circuit_decorator
+[2025-04-28T21:02:39.641-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.640-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_short_circuit_decorator
+[2025-04-28T21:02:39.653-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.653-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_short_circuit_decorator
+[2025-04-28T21:02:39.664-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.664-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_short_circuit_decorator
+[2025-04-28T21:02:39.665-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.665-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:02:39.672-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.672-0500] {dag.py:3262} INFO - Creating ORM DAG for example_short_circuit_decorator
+[2025-04-28T21:02:39.672-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:39.672-0500] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2025-04-28T21:02:39.694-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.212 seconds
+[2025-04-28T21:03:44.536-0500] {processor.py:186} INFO - Started process (PID=17453) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:03:44.537-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-04-28T21:03:44.539-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:44.539-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:03:44.552-0500] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:03:44.572-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:44.571-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:03:44.583-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:44.583-0500] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2025-04-28T21:03:44.610-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.080 seconds
+[2025-04-28T21:04:36.256-0500] {processor.py:186} INFO - Started process (PID=17758) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:04:36.258-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-04-28T21:04:36.260-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:36.259-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:04:36.266-0500] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-28T21:04:36.277-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:36.277-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:36.285-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:36.284-0500] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2025-04-28T21:04:36.306-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.053 seconds

@@ -1,0 +1,29 @@
+[2025-04-28T21:03:03.189-0500] {processor.py:186} INFO - Started process (PID=17156) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:03:03.190-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-04-28T21:03:03.191-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.191-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:03:03.197-0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:03:03.278-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.278-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2025-04-28T21:03:03.292-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.292-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2025-04-28T21:03:03.304-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.303-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2025-04-28T21:03:03.329-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.328-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2025-04-28T21:03:03.369-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.368-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2025-04-28T21:03:03.405-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.404-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2025-04-28T21:03:03.429-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.429-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2025-04-28T21:03:03.430-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.430-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:03:03.438-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.438-0500] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2025-04-28T21:03:03.439-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:03.439-0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-04-28T21:03:03.499-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.313 seconds
+[2025-04-28T21:04:03.658-0500] {processor.py:186} INFO - Started process (PID=17622) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:04:03.660-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-04-28T21:04:03.661-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:03.661-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:04:03.666-0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:04:03.676-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:03.676-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:03.683-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:03.683-0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-04-28T21:04:03.701-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.047 seconds
+[2025-04-28T21:04:58.376-0500] {processor.py:186} INFO - Started process (PID=17812) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:04:58.378-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-04-28T21:04:58.380-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:58.379-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:04:58.385-0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-04-28T21:04:58.398-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:58.398-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:58.405-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:58.405-0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-04-28T21:04:58.426-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.054 seconds

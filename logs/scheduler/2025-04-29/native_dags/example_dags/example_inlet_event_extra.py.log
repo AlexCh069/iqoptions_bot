@@ -1,0 +1,40 @@
+[2025-04-28T21:03:19.629-0500] {processor.py:186} INFO - Started process (PID=17204) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:03:19.630-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-04-28T21:03:19.631-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.631-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:03:19.640-0500] {processor.py:925} INFO - DAG(s) 'read_dataset_event_from_classic', 'read_dataset_event' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:03:19.725-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.724-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:read_dataset_event_from_classic
+[2025-04-28T21:03:19.738-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.737-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:read_dataset_event_from_classic
+[2025-04-28T21:03:19.751-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.750-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:read_dataset_event_from_classic
+[2025-04-28T21:03:19.774-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.773-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:read_dataset_event_from_classic
+[2025-04-28T21:03:19.787-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.786-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:read_dataset_event_from_classic
+[2025-04-28T21:03:19.800-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.800-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:read_dataset_event_from_classic
+[2025-04-28T21:03:19.812-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.812-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:read_dataset_event_from_classic
+[2025-04-28T21:03:19.836-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.836-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:read_dataset_event
+[2025-04-28T21:03:19.848-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.847-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:read_dataset_event
+[2025-04-28T21:03:19.860-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.860-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:read_dataset_event
+[2025-04-28T21:03:19.881-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.880-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:read_dataset_event
+[2025-04-28T21:03:19.894-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.894-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:read_dataset_event
+[2025-04-28T21:03:19.906-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.906-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:read_dataset_event
+[2025-04-28T21:03:19.918-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.918-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:read_dataset_event
+[2025-04-28T21:03:19.918-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.918-0500] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-28T21:03:19.928-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.928-0500] {dag.py:3262} INFO - Creating ORM DAG for read_dataset_event
+[2025-04-28T21:03:19.928-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.928-0500] {dag.py:3262} INFO - Creating ORM DAG for read_dataset_event_from_classic
+[2025-04-28T21:03:19.934-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.934-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:03:19.935-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:19.935-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:03:19.956-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.329 seconds
+[2025-04-28T21:04:16.587-0500] {processor.py:186} INFO - Started process (PID=17654) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:04:16.589-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-04-28T21:04:16.590-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:16.590-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:04:16.598-0500] {processor.py:925} INFO - DAG(s) 'read_dataset_event_from_classic', 'read_dataset_event' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:04:16.609-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:16.608-0500] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-28T21:04:16.621-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:16.621-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:04:16.623-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:16.623-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:04:16.642-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.058 seconds
+[2025-04-28T21:05:10.567-0500] {processor.py:186} INFO - Started process (PID=17841) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:05:10.568-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-04-28T21:05:10.570-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:10.570-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:05:10.577-0500] {processor.py:925} INFO - DAG(s) 'read_dataset_event_from_classic', 'read_dataset_event' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-04-28T21:05:10.588-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:10.588-0500] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-28T21:05:10.601-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:10.601-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:05:10.604-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:10.603-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:05:10.621-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.057 seconds

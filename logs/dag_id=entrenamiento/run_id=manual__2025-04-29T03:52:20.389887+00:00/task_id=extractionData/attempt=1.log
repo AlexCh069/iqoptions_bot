@@ -1,0 +1,19 @@
+[2025-04-28T22:52:23.784-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-28T22:52:23.793-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: entrenamiento.extractionData manual__2025-04-29T03:52:20.389887+00:00 [queued]>
+[2025-04-28T22:52:23.797-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: entrenamiento.extractionData manual__2025-04-29T03:52:20.389887+00:00 [queued]>
+[2025-04-28T22:52:23.797-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-28T22:52:23.812-0500] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): extractionData> on 2025-04-29 03:52:20.389887+00:00
+[2025-04-28T22:52:23.818-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'entrenamiento', 'extractionData', 'manual__2025-04-29T03:52:20.389887+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/train.py', '--cfg-path', '/tmp/tmpf2w45j41']
+[2025-04-28T22:52:23.819-0500] {standard_task_runner.py:105} INFO - Job 8: Subtask extractionData
+[2025-04-28T22:52:23.822-0500] {logging_mixin.py:190} WARNING - /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=47367) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-28T22:52:23.822-0500] {standard_task_runner.py:72} INFO - Started process 47398 to run task
+[2025-04-28T22:52:23.852-0500] {task_command.py:467} INFO - Running <TaskInstance: entrenamiento.extractionData manual__2025-04-29T03:52:20.389887+00:00 [running]> on host DESKTOP-0R7MK50.
+[2025-04-28T22:52:23.910-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='entrenamiento' AIRFLOW_CTX_TASK_ID='extractionData' AIRFLOW_CTX_EXECUTION_DATE='2025-04-29T03:52:20.389887+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-29T03:52:20.389887+00:00'
+[2025-04-28T22:52:23.911-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-28T22:52:25.829-0500] {logging_mixin.py:190} WARNING - /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/urllib3/connectionpool.py:1097 InsecureRequestWarning: Unverified HTTPS request is being made to host 'auth.iqoption.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2025-04-28T22:52:29.940-0500] {python.py:240} INFO - Done. Returned value was: Data Almacenada
+[2025-04-28T22:52:29.954-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-28T22:52:29.954-0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=entrenamiento, task_id=extractionData, run_id=manual__2025-04-29T03:52:20.389887+00:00, execution_date=20250429T035220, start_date=20250429T035223, end_date=20250429T035229
+[2025-04-28T22:52:29.989-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-28T22:52:29.995-0500] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-28T22:52:29.996-0500] {local_task_job_runner.py:245} INFO - ::endgroup::

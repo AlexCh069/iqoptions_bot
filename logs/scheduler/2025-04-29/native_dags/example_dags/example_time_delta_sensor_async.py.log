@@ -1,0 +1,22 @@
+[2025-04-28T21:03:32.937-0500] {processor.py:186} INFO - Started process (PID=17241) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-28T21:03:32.938-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-04-28T21:03:32.939-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:32.939-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-28T21:03:32.944-0500] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-28T21:03:33.027-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.026-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_time_delta_sensor_async
+[2025-04-28T21:03:33.040-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.040-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:example_time_delta_sensor_async
+[2025-04-28T21:03:33.052-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.051-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_time_delta_sensor_async
+[2025-04-28T21:03:33.074-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.073-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_time_delta_sensor_async
+[2025-04-28T21:03:33.085-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.085-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_time_delta_sensor_async
+[2025-04-28T21:03:33.097-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.096-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_time_delta_sensor_async
+[2025-04-28T21:03:33.108-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.108-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_time_delta_sensor_async
+[2025-04-28T21:03:33.108-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.108-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:03:33.116-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.116-0500] {dag.py:3262} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2025-04-28T21:03:33.116-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:33.116-0500] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-04-28T21:03:33.138-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.204 seconds
+[2025-04-28T21:04:28.220-0500] {processor.py:186} INFO - Started process (PID=17677) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-28T21:04:28.222-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-04-28T21:04:28.223-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:28.223-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-28T21:04:28.228-0500] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-28T21:04:28.238-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:28.237-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:28.245-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:28.245-0500] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-04-28T21:04:28.265-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.048 seconds

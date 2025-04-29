@@ -1,0 +1,29 @@
+[2025-04-28T21:03:01.155-0500] {processor.py:186} INFO - Started process (PID=17147) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:03:01.156-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-28T21:03:01.157-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.157-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:03:01.165-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:03:01.304-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.302-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-04-28T21:03:01.320-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.319-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-04-28T21:03:01.333-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.333-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-04-28T21:03:01.354-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.354-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_params_trigger_ui
+[2025-04-28T21:03:01.366-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.365-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_params_trigger_ui
+[2025-04-28T21:03:01.377-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.377-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_params_trigger_ui
+[2025-04-28T21:03:01.389-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.389-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_params_trigger_ui
+[2025-04-28T21:03:01.390-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.390-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:03:01.397-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.397-0500] {dag.py:3262} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-04-28T21:03:01.397-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:01.397-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-28T21:03:01.418-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.265 seconds
+[2025-04-28T21:04:01.080-0500] {processor.py:186} INFO - Started process (PID=17619) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:04:01.082-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-28T21:04:01.083-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:01.083-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:04:01.093-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:04:01.115-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:01.115-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:01.123-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:01.123-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-28T21:04:01.143-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.067 seconds
+[2025-04-28T21:04:52.580-0500] {processor.py:186} INFO - Started process (PID=17794) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:04:52.582-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-28T21:04:52.583-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:52.583-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:04:52.590-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-28T21:04:52.613-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:52.612-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:52.620-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:52.620-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-28T21:04:52.639-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.063 seconds

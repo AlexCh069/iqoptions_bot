@@ -40,9 +40,9 @@ class ConectionApi:
 
         return data
 
-API = ConectionApi(gmail=gmail, password=password)      
-candls = API.ExtraccionData(5)
-fecha_actual = datetime.now()
+# API = ConectionApi(gmail=gmail, password=password)      
+# candls = API.ExtraccionData(5)
+# fecha_actual = datetime.now()
 
-candls.to_csv(f'./data_csv/{fecha_actual.strftime("%Y-%m-%d_%H-%M")}.csv', index= False)
-print(candls.head(3))
+# candls.to_csv(f'./data_csv/{fecha_actual.strftime("%Y-%m-%d_%H-%M")}.csv', index= False)
+# print(candls.head(3))

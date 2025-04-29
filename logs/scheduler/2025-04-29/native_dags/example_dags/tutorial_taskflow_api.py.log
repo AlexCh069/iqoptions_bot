@@ -1,0 +1,29 @@
+[2025-04-28T21:02:48.842-0500] {processor.py:186} INFO - Started process (PID=17116) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:02:48.843-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-04-28T21:02:48.844-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:48.843-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:02:48.849-0500] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:02:48.935-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:48.935-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2025-04-28T21:02:48.950-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:48.950-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2025-04-28T21:02:48.961-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:48.961-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2025-04-28T21:02:48.983-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:48.983-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_api
+[2025-04-28T21:02:48.995-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:48.994-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_api
+[2025-04-28T21:02:49.009-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:49.009-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_api
+[2025-04-28T21:02:49.021-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:49.021-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_api
+[2025-04-28T21:02:49.021-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:49.021-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:02:49.029-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:49.029-0500] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2025-04-28T21:02:49.030-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:02:49.030-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-04-28T21:02:49.049-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.211 seconds
+[2025-04-28T21:03:51.223-0500] {processor.py:186} INFO - Started process (PID=17536) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:03:51.223-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-04-28T21:03:51.225-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:51.224-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:03:51.230-0500] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:03:51.240-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:51.239-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:03:51.247-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:51.247-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-04-28T21:03:51.268-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.049 seconds
+[2025-04-28T21:04:43.605-0500] {processor.py:186} INFO - Started process (PID=17778) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:04:43.606-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-04-28T21:04:43.607-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:43.607-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:04:43.614-0500] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-28T21:04:43.623-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:43.623-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:43.631-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:43.631-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-04-28T21:04:43.652-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.050 seconds

@@ -1,0 +1,29 @@
+[2025-04-28T21:03:29.988-0500] {processor.py:186} INFO - Started process (PID=17233) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:03:29.989-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-28T21:03:29.990-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:29.989-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:03:29.997-0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:03:30.089-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.088-0500] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2025-04-28T21:03:30.104-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.104-0500] {override.py:1912} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2025-04-28T21:03:30.118-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.118-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2025-04-28T21:03:30.140-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.140-0500] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2025-04-28T21:03:30.154-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.154-0500] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2025-04-28T21:03:30.167-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.166-0500] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2025-04-28T21:03:30.182-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.180-0500] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2025-04-28T21:03:30.184-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.183-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:03:30.192-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.192-0500] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2025-04-28T21:03:30.199-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:03:30.199-0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:03:30.221-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.236 seconds
+[2025-04-28T21:04:25.951-0500] {processor.py:186} INFO - Started process (PID=17675) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:04:25.953-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-28T21:04:25.954-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:25.954-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:04:25.960-0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:04:25.973-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:25.973-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:04:25.985-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:04:25.985-0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:04:26.006-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.057 seconds
+[2025-04-28T21:05:20.015-0500] {processor.py:186} INFO - Started process (PID=17866) to work on /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:05:20.018-0500] {processor.py:914} INFO - Processing file /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-28T21:05:20.020-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:20.020-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:05:20.026-0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-28T21:05:20.041-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:20.040-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-28T21:05:20.064-0500] {logging_mixin.py:190} INFO - [2025-04-28T21:05:20.064-0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T21:05:20.091-0500] {processor.py:208} INFO - Processing /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.082 seconds

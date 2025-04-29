@@ -1,0 +1,1183 @@
+[2025-04-28T21:02:31.625-0500] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-28T21:02:31.625-0500] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-28T21:02:31.626-0500] {manager.py:485} INFO - Checking for new files in /home/ares/iqoptions_bot/dags every 300 seconds
+[2025-04-28T21:02:31.626-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:02:31.683-0500] {manager.py:824} INFO - There are 57 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:02:31.408-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py                                                       0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  -0.33s          2025-04-29T02:02:31                      79
+================================================================================
+[2025-04-28T21:03:01.459-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  2.32s           2025-04-29T02:02:34                     379
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.60s           2025-04-29T02:02:36                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        3           0  0.51s           2025-04-29T02:02:51                     118
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.31s           2025-04-29T02:02:38                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.31s           2025-04-29T02:02:52                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.31s           2025-04-29T02:02:58                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.31s           2025-04-29T02:02:59                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.31s           2025-04-29T02:02:50                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.31s           2025-04-29T02:02:47                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.31s           2025-04-29T02:02:45                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.31s           2025-04-29T02:02:55                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.31s           2025-04-29T02:02:46                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.31s           2025-04-29T02:02:43                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.31s           2025-04-29T02:02:49                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.31s           2025-04-29T02:02:41                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.30s           2025-04-29T02:02:39                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.30s           2025-04-29T02:02:56                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.30s           2025-04-29T02:03:00                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.30s           2025-04-29T02:02:42                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.30s           2025-04-29T02:03:01                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2025-04-29T02:02:54                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.10s           2025-04-29T02:02:47                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py                                                       0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  -0.33s          2025-04-29T02:02:31                      79
+================================================================================
+[2025-04-28T21:03:31.882-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  2.32s           2025-04-29T02:02:34                     379
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            4           0  0.71s           2025-04-29T02:03:31                     157
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.60s           2025-04-29T02:02:36                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        3           0  0.51s           2025-04-29T02:02:51                     118
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.50s           2025-04-29T02:03:16                     117
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.41s           2025-04-29T02:03:28                      79
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         2           0  0.41s           2025-04-29T02:03:20                      81
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.31s           2025-04-29T02:02:38                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.31s           2025-04-29T02:02:52                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.31s           2025-04-29T02:02:58                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.31s           2025-04-29T02:03:08                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.31s           2025-04-29T02:02:59                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.31s           2025-04-29T02:03:21                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.31s           2025-04-29T02:02:50                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.31s           2025-04-29T02:03:26                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.31s           2025-04-29T02:02:47                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.31s           2025-04-29T02:02:45                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.31s           2025-04-29T02:03:06                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.31s           2025-04-29T02:02:55                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.31s           2025-04-29T02:02:46                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py                                                       1           0  0.31s           2025-04-29T02:03:10                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.31s           2025-04-29T02:03:17                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.31s           2025-04-29T02:03:23                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.31s           2025-04-29T02:03:22                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.31s           2025-04-29T02:03:09                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.31s           2025-04-29T02:02:43                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.31s           2025-04-29T02:03:04                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.31s           2025-04-29T02:03:11                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.31s           2025-04-29T02:03:30                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.31s           2025-04-29T02:02:49                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.31s           2025-04-29T02:02:41                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.30s           2025-04-29T02:03:18                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.30s           2025-04-29T02:03:29                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.30s           2025-04-29T02:03:25                      53
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.30s           2025-04-29T02:02:39                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.30s           2025-04-29T02:02:56                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.30s           2025-04-29T02:03:00                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.30s           2025-04-29T02:03:12                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.30s           2025-04-29T02:02:42                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.30s           2025-04-29T02:03:05                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.30s           2025-04-29T02:03:01                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.30s           2025-04-29T02:03:01                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.30s           2025-04-29T02:03:14                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.11s           2025-04-29T02:03:21                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2025-04-29T02:02:54                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.10s           2025-04-29T02:02:47                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.10s           2025-04-29T02:03:13                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.10s           2025-04-29T02:03:03                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0                                                            0
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  -0.33s          2025-04-29T02:02:31                      79
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  -0.42s          2025-04-29T02:03:02                      43
+================================================================================
+[2025-04-28T21:04:01.180-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            4           0  0.71s           2025-04-29T02:03:31                     157
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.50s           2025-04-29T02:03:16                     117
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.41s           2025-04-29T02:03:28                      79
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         2           0  0.41s           2025-04-29T02:03:20                      81
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.31s           2025-04-29T02:03:08                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.31s           2025-04-29T02:03:21                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.31s           2025-04-29T02:03:26                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.31s           2025-04-29T02:03:06                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py                                                       1           0  0.31s           2025-04-29T02:03:10                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.31s           2025-04-29T02:03:17                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.31s           2025-04-29T02:03:23                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.31s           2025-04-29T02:03:22                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.31s           2025-04-29T02:03:09                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.31s           2025-04-29T02:03:04                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.31s           2025-04-29T02:03:11                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.31s           2025-04-29T02:03:30                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.30s           2025-04-29T02:03:18                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.30s           2025-04-29T02:03:29                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.30s           2025-04-29T02:03:25                      53
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.30s           2025-04-29T02:03:12                      45
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.30s           2025-04-29T02:03:05                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.30s           2025-04-29T02:03:33                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.30s           2025-04-29T02:03:01                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.30s           2025-04-29T02:03:14                      43
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2025-04-29T02:03:43                      32
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.11s           2025-04-29T02:03:45                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.11s           2025-04-29T02:03:47                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.11s           2025-04-29T02:03:38                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.11s           2025-04-29T02:03:44                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.11s           2025-04-29T02:03:40                      13
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.11s           2025-04-29T02:03:21                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2025-04-29T02:04:00                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2025-04-29T02:03:50                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2025-04-29T02:03:54                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2025-04-29T02:03:49                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        3           0  0.10s           2025-04-29T02:03:53                      19
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2025-04-29T02:03:48                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.10s           2025-04-29T02:03:49                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.10s           2025-04-29T02:03:52                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2025-04-29T02:03:37                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2025-04-29T02:03:51                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.10s           2025-04-29T02:03:58                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2025-04-29T02:03:39                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2025-04-29T02:03:36                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2025-04-29T02:03:46                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2025-04-29T02:03:57                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2025-04-29T02:04:01                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.10s           2025-04-29T02:03:35                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2025-04-29T02:03:54                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.10s           2025-04-29T02:03:59                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2025-04-29T02:03:56                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.10s           2025-04-29T02:03:13                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2025-04-29T02:03:42                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.10s           2025-04-29T02:03:41                      49
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.10s           2025-04-29T02:03:03                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             4           0  0.08s           2025-04-29T02:03:34                     157
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  -0.42s          2025-04-29T02:03:02                      43
+================================================================================
+[2025-04-28T21:04:30.672-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2025-04-29T02:03:43                      32
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.11s           2025-04-29T02:03:45                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.11s           2025-04-29T02:03:47                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.11s           2025-04-29T02:04:20                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.11s           2025-04-29T02:03:38                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.11s           2025-04-29T02:03:44                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.11s           2025-04-29T02:03:40                      13
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2025-04-29T02:04:01                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2025-04-29T02:04:00                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.10s           2025-04-29T02:04:21                      20
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py                                                       1           0  0.10s           2025-04-29T02:04:08                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2025-04-29T02:04:10                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.10s           2025-04-29T02:04:03                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.10s           2025-04-29T02:04:14                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2025-04-29T02:03:50                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2025-04-29T02:03:54                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2025-04-29T02:04:07                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2025-04-29T02:03:49                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2025-04-29T02:04:28                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        3           0  0.10s           2025-04-29T02:03:53                      19
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2025-04-29T02:04:30                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.10s           2025-04-29T02:04:06                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2025-04-29T02:03:48                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.10s           2025-04-29T02:03:49                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.10s           2025-04-29T02:04:02                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.10s           2025-04-29T02:03:52                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2025-04-29T02:04:26                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             4           0  0.10s           2025-04-29T02:04:28                      27
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.10s           2025-04-29T02:04:17                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2025-04-29T02:03:37                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2025-04-29T02:04:04                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         2           0  0.10s           2025-04-29T02:04:16                      15
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2025-04-29T02:03:51                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2025-04-29T02:04:19                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.10s           2025-04-29T02:03:58                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2025-04-29T02:03:39                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2025-04-29T02:04:24                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.10s           2025-04-29T02:04:15                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2025-04-29T02:03:46                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2025-04-29T02:03:57                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.10s           2025-04-29T02:04:29                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2025-04-29T02:04:24                      13
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.10s           2025-04-29T02:04:12                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2025-04-29T02:04:01                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2025-04-29T02:04:19                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2025-04-29T02:03:54                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.10s           2025-04-29T02:03:59                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            4           0  0.10s           2025-04-29T02:04:27                      27
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.10s           2025-04-29T02:04:23                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2025-04-29T02:03:56                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2025-04-29T02:04:06                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.10s           2025-04-29T02:04:11                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2025-04-29T02:04:14                      18
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2025-04-29T02:03:42                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2025-04-29T02:04:09                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.10s           2025-04-29T02:03:41                      49
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.10s           2025-04-29T02:04:05                      10
+================================================================================
+[2025-04-28T21:05:00.131-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2025-04-29T02:04:35                      32
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.11s           2025-04-29T02:04:20                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.11s           2025-04-29T02:04:56                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.11s           2025-04-29T02:04:54                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.11s           2025-04-29T02:04:38                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.11s           2025-04-29T02:04:58                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2025-04-29T02:04:40                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.10s           2025-04-29T02:04:57                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.10s           2025-04-29T02:04:50                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2025-04-29T02:04:37                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.10s           2025-04-29T02:04:21                      20
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py                                                       1           0  0.10s           2025-04-29T02:04:08                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2025-04-29T02:04:10                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2025-04-29T02:04:52                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.10s           2025-04-29T02:04:14                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2025-04-29T02:04:07                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2025-04-29T02:04:28                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2025-04-29T02:04:30                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        3           0  0.10s           2025-04-29T02:04:44                      19
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.10s           2025-04-29T02:04:06                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2025-04-29T02:04:30                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2025-04-29T02:04:47                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2025-04-29T02:04:26                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             4           0  0.10s           2025-04-29T02:04:28                      27
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2025-04-29T02:04:51                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.10s           2025-04-29T02:04:17                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2025-04-29T02:04:59                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2025-04-29T02:04:42                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         2           0  0.10s           2025-04-29T02:04:16                      15
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2025-04-29T02:04:19                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2025-04-29T02:04:48                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.10s           2025-04-29T02:04:41                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2025-04-29T02:04:24                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.10s           2025-04-29T02:04:36                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2025-04-29T02:04:34                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.10s           2025-04-29T02:04:15                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.10s           2025-04-29T02:04:29                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2025-04-29T02:04:24                      13
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.10s           2025-04-29T02:04:33                      49
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.10s           2025-04-29T02:04:12                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2025-04-29T02:04:19                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.10s           2025-04-29T02:04:37                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2025-04-29T02:04:32                      13
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.10s           2025-04-29T02:04:49                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            4           0  0.10s           2025-04-29T02:04:27                      27
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.10s           2025-04-29T02:04:23                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2025-04-29T02:04:06                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.10s           2025-04-29T02:05:00                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.10s           2025-04-29T02:04:11                       3
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2025-04-29T02:04:14                      18
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2025-04-29T02:04:46                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2025-04-29T02:04:53                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.10s           2025-04-29T02:04:44                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2025-04-29T02:04:43                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2025-04-29T02:04:39                      12
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2025-04-29T02:04:09                      10
+/home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2025-04-29T02:04:49                      12
+================================================================================
+[2025-04-28T21:05:23.016-0500] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-28T21:05:30.779-0500] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-28T21:05:30.780-0500] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-28T21:05:30.780-0500] {manager.py:485} INFO - Checking for new files in /home/ares/iqoptions_bot/dags every 300 seconds
+[2025-04-28T21:05:30.780-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:05:30.781-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:10:30.979-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:10:30.979-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:15:31.699-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:15:31.700-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:20:31.992-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:20:31.993-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:25:31.998-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:25:32.000-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:30:32.320-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:30:32.321-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:35:33.162-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:35:33.163-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:40:33.173-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:40:33.174-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:45:33.432-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:45:33.433-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:50:34.321-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:50:34.322-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:55:34.387-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T21:55:34.388-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:00:34.580-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:00:34.581-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:05:35.000-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:05:35.001-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:10:35.600-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:10:35.601-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:15:35.887-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:15:35.887-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:20:36.661-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:20:36.662-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:25:36.907-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:25:36.908-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:30:36.958-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:30:36.959-0500] {manager.py:824} INFO - There are 0 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:35:37.151-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:35:37.152-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:35:55.085-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.81s           2025-04-29T03:35:38                      45
+================================================================================
+[2025-04-28T22:36:24.042-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.51s           2025-04-29T03:36:08                      12
+================================================================================
+[2025-04-28T22:36:52.987-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:36:39                      12
+================================================================================
+[2025-04-28T22:37:21.961-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:37:09                      12
+================================================================================
+[2025-04-28T22:37:51.884-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:37:50                      12
+================================================================================
+[2025-04-28T22:38:21.934-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T03:38:21                      12
+================================================================================
+[2025-04-28T22:38:51.667-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T03:38:21                      12
+================================================================================
+[2025-04-28T22:39:20.731-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:38:53                      12
+================================================================================
+[2025-04-28T22:39:49.769-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:39:24                      12
+================================================================================
+[2025-04-28T22:40:18.876-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:39:54                      12
+================================================================================
+[2025-04-28T22:40:37.931-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:40:37.933-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:40:47.929-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:40:25                      12
+================================================================================
+[2025-04-28T22:41:17.025-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:40:56                      12
+================================================================================
+[2025-04-28T22:41:46.113-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T03:41:27                      12
+================================================================================
+[2025-04-28T22:42:16.570-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:41:58                      12
+================================================================================
+[2025-04-28T22:42:46.363-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:42:28                      12
+================================================================================
+[2025-04-28T22:43:15.887-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:43:00                      12
+================================================================================
+[2025-04-28T22:43:45.659-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:43:30                      12
+================================================================================
+[2025-04-28T22:44:14.865-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T03:44:01                      12
+================================================================================
+[2025-04-28T22:44:43.951-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:44:32                      12
+================================================================================
+[2025-04-28T22:45:13.433-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:45:03                      12
+================================================================================
+[2025-04-28T22:45:38.490-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:45:38.491-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:45:42.495-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:45:33                      12
+================================================================================
+[2025-04-28T22:46:11.510-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:46:04                      12
+================================================================================
+[2025-04-28T22:46:40.859-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T03:46:35                      12
+================================================================================
+[2025-04-28T22:47:09.952-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:47:06                      12
+================================================================================
+[2025-04-28T22:47:39.047-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.51s           2025-04-29T03:47:37                      12
+================================================================================
+[2025-04-28T22:48:08.198-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.82s           2025-04-29T03:48:08                      12
+================================================================================
+[2025-04-28T22:48:37.258-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.82s           2025-04-29T03:48:08                      12
+================================================================================
+[2025-04-28T22:49:06.376-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.42s           2025-04-29T03:48:38                      12
+================================================================================
+[2025-04-28T22:49:35.383-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:49:09                      12
+================================================================================
+[2025-04-28T22:50:04.816-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T03:49:40                      12
+================================================================================
+[2025-04-28T22:50:34.982-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:50:11                      12
+================================================================================
+[2025-04-28T22:50:38.793-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:50:38.795-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:51:04.074-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:50:42                      12
+================================================================================
+[2025-04-28T22:51:33.553-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:51:13                      12
+================================================================================
+[2025-04-28T22:52:02.598-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.51s           2025-04-29T03:51:44                      12
+================================================================================
+[2025-04-28T22:52:31.465-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:52:05                      12
+================================================================================
+[2025-04-28T22:53:00.412-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.42s           2025-04-29T03:52:37                      12
+================================================================================
+[2025-04-28T22:53:29.552-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:53:08                      12
+================================================================================
+[2025-04-28T22:53:58.765-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:53:38                      12
+================================================================================
+[2025-04-28T22:54:27.816-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.51s           2025-04-29T03:54:09                      12
+================================================================================
+[2025-04-28T22:54:56.854-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.52s           2025-04-29T03:54:31                      12
+================================================================================
+[2025-04-28T22:55:25.738-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T03:55:02                      12
+================================================================================
+[2025-04-28T22:55:38.954-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:55:38.956-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T22:55:55.005-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:55:33                      12
+================================================================================
+[2025-04-28T22:56:24.517-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:56:04                      12
+================================================================================
+[2025-04-28T22:56:53.403-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:56:35                      12
+================================================================================
+[2025-04-28T22:57:23.284-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:57:05                      12
+================================================================================
+[2025-04-28T22:57:52.515-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:57:37                      12
+================================================================================
+[2025-04-28T22:58:23.173-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:58:08                      12
+================================================================================
+[2025-04-28T22:58:52.255-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:58:39                      12
+================================================================================
+[2025-04-28T22:59:21.346-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:59:10                      12
+================================================================================
+[2025-04-28T22:59:50.716-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T03:59:40                      12
+================================================================================
+[2025-04-28T23:00:19.636-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:00:11                      12
+================================================================================
+[2025-04-28T23:00:39.938-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T23:00:39.939-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T23:00:48.540-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:00:41                      12
+================================================================================
+[2025-04-28T23:01:17.467-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:01:12                      12
+================================================================================
+[2025-04-28T23:01:46.369-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:01:43                      12
+================================================================================
+[2025-04-28T23:02:15.308-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:02:14                      12
+================================================================================
+[2025-04-28T23:02:44.214-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:02:14                      12
+================================================================================
+[2025-04-28T23:03:13.101-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T04:02:45                      12
+================================================================================
+[2025-04-28T23:03:42.012-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:03:16                      12
+================================================================================
+[2025-04-28T23:04:10.867-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:03:46                      12
+================================================================================
+[2025-04-28T23:04:39.863-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:04:18                      12
+================================================================================
+[2025-04-28T23:05:08.793-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.82s           2025-04-29T04:04:48                      12
+================================================================================
+[2025-04-28T23:05:37.707-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:05:19                      12
+================================================================================
+[2025-04-28T23:05:40.134-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T23:05:40.136-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T23:06:07.761-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:05:50                      12
+================================================================================
+[2025-04-28T23:06:36.808-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:06:21                      12
+================================================================================
+[2025-04-28T23:07:05.696-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:06:53                      12
+================================================================================
+[2025-04-28T23:07:34.605-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T04:07:24                      12
+================================================================================
+[2025-04-28T23:08:03.491-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:07:55                      12
+================================================================================
+[2025-04-28T23:08:32.397-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:08:26                      12
+================================================================================
+[2025-04-28T23:09:01.313-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:08:56                      12
+================================================================================
+[2025-04-28T23:09:30.205-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:09:27                      12
+================================================================================
+[2025-04-28T23:09:59.122-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T04:09:58                      12
+================================================================================
+[2025-04-28T23:10:28.022-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.40s           2025-04-29T04:09:58                      12
+================================================================================
+[2025-04-28T23:10:41.024-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T23:10:41.025-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T23:10:56.901-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:10:29                      12
+================================================================================
+[2025-04-28T23:11:25.820-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:11:00                      12
+================================================================================
+[2025-04-28T23:11:54.718-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:11:31                      12
+================================================================================
+[2025-04-28T23:12:23.617-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.51s           2025-04-29T04:12:02                      12
+================================================================================
+[2025-04-28T23:12:53.677-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:12:33                      12
+================================================================================
+[2025-04-28T23:13:22.572-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:13:03                      12
+================================================================================
+[2025-04-28T23:13:51.443-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:13:34                      12
+================================================================================
+[2025-04-28T23:14:20.362-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:14:05                      12
+================================================================================
+[2025-04-28T23:14:49.299-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:14:35                      12
+================================================================================
+[2025-04-28T23:15:18.210-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:15:06                      12
+================================================================================
+[2025-04-28T23:15:41.612-0500] {manager.py:821} INFO - Searching for files in /home/ares/iqoptions_bot/dags
+[2025-04-28T23:15:41.614-0500] {manager.py:824} INFO - There are 1 files in /home/ares/iqoptions_bot/dags
+[2025-04-28T23:15:47.134-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:15:37                      12
+================================================================================
+[2025-04-28T23:16:16.042-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:16:08                      12
+================================================================================
+[2025-04-28T23:16:44.931-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:16:39                      12
+================================================================================
+[2025-04-28T23:17:13.837-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:17:10                      12
+================================================================================
+[2025-04-28T23:17:42.771-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.41s           2025-04-29T04:17:41                      12
+================================================================================
+[2025-04-28T23:18:11.818-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.30s           2025-04-29T04:18:11                      12
+================================================================================
+[2025-04-28T23:18:40.717-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.30s           2025-04-29T04:18:11                      12
+================================================================================
+[2025-04-28T23:19:09.549-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.30s           2025-04-29T04:18:43                      12
+================================================================================
+[2025-04-28T23:19:38.430-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.30s           2025-04-29T04:19:13                      12
+================================================================================
+[2025-04-28T23:20:08.500-0500] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/ares/iqoptions_bot/dags/train.py                           1           0  0.31s           2025-04-29T04:19:44                      12
+================================================================================
