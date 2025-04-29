@@ -30,13 +30,16 @@ class ConectionApi:
         end_from_time = time.time() #   Ultima marca de tiempo
         ANS = []
 
-        for i in range(range_days):     # range_days : Cantidad de dias de los que se extraera la data
-            data = self.API.get_candles(goal, 60, 1000, end_from_time) # Extraccion de las anteriores 1000 velas desde la marca de tiempo
+        for i in range(2*range_days):     # range_days : Cantidad de dias de los que se extraera la data
+            data = self.API.get_candles(goal, 30, 1000, end_from_time) # Extraccion de las anteriores 1000 velas desde la marca de tiempo
             ANS = data + ANS
             end_from_time = int(data[0]["from"]) - 1                    # Actualizacion de la nueva marca de tiempo
 
         data = pd.DataFrame(ANS)
-        data.drop(['id','at'], axis=1, inplace=True)
+        data['from_dt'] = pd.to_datetime(data['from'], unit='s')
+        data['to_dt'] = pd.to_datetime(data['to'], unit='s')
+        data.drop(['id','at','from','to'], axis=1, inplace=True)
+        data = data[['from_dt','to_dt','open','close','min','max','volume']]
 
         return data
 

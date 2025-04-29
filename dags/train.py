@@ -1,6 +1,8 @@
 from airflow.decorators import task, dag, setup, teardown
 from utils.extraction import ConectionApi
+import utils.preprocecing as pr
 from datetime import datetime, timedelta
+import pandas as pd
 import os
 
 
@@ -12,7 +14,6 @@ password = "dracarys069"
      start_date=datetime(2025,4,27))
 def entrenamiento():
     
-
     @task
     def extractionData(gmail, password):
         API = ConectionApi(gmail=gmail, password=password)
@@ -29,7 +30,15 @@ def entrenamiento():
 
         return 'Data Almacenada'
     
-    extractionData(gmail,password)
+    @task
+    def indicadores():
+        csv_path = pr.obtener_ultimo_archivo_creado()
+        df = pd.read_csv(csv_path)
+
+        return print(df.head(2))
+    
+    extractionData(gmail,password) >> indicadores()
+
 
 entrenamiento()
 
