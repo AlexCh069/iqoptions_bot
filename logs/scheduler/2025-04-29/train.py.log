@@ -6541,3 +6541,35 @@ TypeError: '>' not supported between instances of 'PlainXComArg' and 'PlainXComA
 [2025-04-29T17:55:46.397-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:55:46.396-0500] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-29T17:55:46.408-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:55:46.408-0500] {dag.py:4180} INFO - Setting next_dagrun for entrenamiento to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
 [2025-04-29T17:55:46.434-0500] {processor.py:208} INFO - Processing /home/ares/iqoptions_bot/dags/train.py took 0.419 seconds
+[2025-04-29T17:56:17.140-0500] {processor.py:186} INFO - Started process (PID=103980) to work on /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:56:17.142-0500] {processor.py:914} INFO - Processing file /home/ares/iqoptions_bot/dags/train.py for tasks to queue
+[2025-04-29T17:56:17.143-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:56:17.143-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:56:17.279-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:56:17.279-0500] {utils.py:161} INFO - NumExpr defaulting to 12 threads.
+[2025-04-29T17:56:17.395-0500] {processor.py:925} INFO - DAG(s) 'entrenamiento' retrieved from /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:56:17.518-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:56:17.517-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:56:17.530-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:56:17.530-0500] {dag.py:4180} INFO - Setting next_dagrun for entrenamiento to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:56:17.549-0500] {processor.py:208} INFO - Processing /home/ares/iqoptions_bot/dags/train.py took 0.413 seconds
+[2025-04-29T17:56:48.209-0500] {processor.py:186} INFO - Started process (PID=104225) to work on /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:56:48.212-0500] {processor.py:914} INFO - Processing file /home/ares/iqoptions_bot/dags/train.py for tasks to queue
+[2025-04-29T17:56:48.215-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:56:48.214-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:56:48.346-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:56:48.346-0500] {utils.py:161} INFO - NumExpr defaulting to 12 threads.
+[2025-04-29T17:56:48.456-0500] {processor.py:925} INFO - DAG(s) 'entrenamiento' retrieved from /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:56:48.471-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:56:48.471-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:56:48.483-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:56:48.483-0500] {dag.py:4180} INFO - Setting next_dagrun for entrenamiento to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:56:48.505-0500] {processor.py:208} INFO - Processing /home/ares/iqoptions_bot/dags/train.py took 0.301 seconds
+[2025-04-29T17:57:18.873-0500] {processor.py:186} INFO - Started process (PID=104366) to work on /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:57:18.875-0500] {processor.py:914} INFO - Processing file /home/ares/iqoptions_bot/dags/train.py for tasks to queue
+[2025-04-29T17:57:18.876-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:57:18.875-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:57:19.008-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:57:19.008-0500] {utils.py:161} INFO - NumExpr defaulting to 12 threads.
+[2025-04-29T17:57:19.113-0500] {processor.py:925} INFO - DAG(s) 'entrenamiento' retrieved from /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:57:19.127-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:57:19.127-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:57:19.141-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:57:19.141-0500] {dag.py:4180} INFO - Setting next_dagrun for entrenamiento to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:57:19.164-0500] {processor.py:208} INFO - Processing /home/ares/iqoptions_bot/dags/train.py took 0.295 seconds
+[2025-04-29T17:57:49.344-0500] {processor.py:186} INFO - Started process (PID=104489) to work on /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:57:49.347-0500] {processor.py:914} INFO - Processing file /home/ares/iqoptions_bot/dags/train.py for tasks to queue
+[2025-04-29T17:57:49.348-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:57:49.348-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:57:49.681-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:57:49.681-0500] {utils.py:161} INFO - NumExpr defaulting to 12 threads.
+[2025-04-29T17:57:49.927-0500] {processor.py:925} INFO - DAG(s) 'entrenamiento' retrieved from /home/ares/iqoptions_bot/dags/train.py
+[2025-04-29T17:57:49.945-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:57:49.945-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T17:57:49.960-0500] {logging_mixin.py:190} INFO - [2025-04-29T17:57:49.960-0500] {dag.py:4180} INFO - Setting next_dagrun for entrenamiento to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T17:57:50.138-0500] {processor.py:208} INFO - Processing /home/ares/iqoptions_bot/dags/train.py took 0.809 seconds

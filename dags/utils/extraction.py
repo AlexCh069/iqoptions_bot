@@ -3,6 +3,7 @@ import logging
 import time
 import pandas as pd
 from datetime import datetime
+from .pre_data import calcular_indicadores
 
 # Configurar logging
 logging.basicConfig(level=logging.INFO)
@@ -36,12 +37,17 @@ class ConectionApi:
             end_from_time = int(data[0]["from"]) - 1                    # Actualizacion de la nueva marca de tiempo
 
         data = pd.DataFrame(ANS)
+
+        # Reorganizacion de data 
         data['from_dt'] = pd.to_datetime(data['from'], unit='s')
         data['to_dt'] = pd.to_datetime(data['to'], unit='s')
         data.drop(['id','at','from','to'], axis=1, inplace=True)
         data = data[['from_dt','to_dt','open','close','min','max','volume']]
 
-        return data
+        # Calculo de indicadores
+        data_more_indicators = calcular_indicadores(data)
+
+        return data_more_indicators
 
 # API = ConectionApi(gmail=gmail, password=password)      
 # candls = API.ExtraccionData(5)

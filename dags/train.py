@@ -1,6 +1,6 @@
 from airflow.decorators import task, dag, setup, teardown
 from utils.extraction import ConectionApi
-import utils.preprocecing as pr
+import utils.pre_data as pr
 from datetime import datetime, timedelta
 import pandas as pd
 import os
@@ -11,7 +11,7 @@ gmail = "alex.ch.o573@gmail.com",
 password = "dracarys069"
 
 @dag(schedule=timedelta(days=1),
-     start_date=datetime(2025,4,27))
+     start_date=datetime(2025,5,1))
 def entrenamiento():
     
     @task
