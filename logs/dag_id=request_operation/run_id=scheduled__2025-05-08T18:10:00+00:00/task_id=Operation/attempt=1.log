@@ -1,0 +1,18 @@
+[2025-05-08T13:10:52.987-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-08T13:10:52.994-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: request_operation.Operation scheduled__2025-05-08T18:10:00+00:00 [queued]>
+[2025-05-08T13:10:52.999-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: request_operation.Operation scheduled__2025-05-08T18:10:00+00:00 [queued]>
+[2025-05-08T13:10:52.999-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-08T13:10:53.014-0500] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): Operation> on 2025-05-08 18:10:00+00:00
+[2025-05-08T13:10:53.019-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'request_operation', 'Operation', 'scheduled__2025-05-08T18:10:00+00:00', '--job-id', '1643', '--raw', '--subdir', 'DAGS_FOLDER/operations.py', '--cfg-path', '/tmp/tmp3dri7ghh']
+[2025-05-08T13:10:53.021-0500] {standard_task_runner.py:105} INFO - Job 1643: Subtask Operation
+[2025-05-08T13:10:53.022-0500] {logging_mixin.py:190} WARNING - /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=67196) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-08T13:10:53.022-0500] {standard_task_runner.py:72} INFO - Started process 67221 to run task
+[2025-05-08T13:10:53.046-0500] {task_command.py:467} INFO - Running <TaskInstance: request_operation.Operation scheduled__2025-05-08T18:10:00+00:00 [running]> on host DESKTOP-0R7MK50.
+[2025-05-08T13:10:53.096-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='request_operation' AIRFLOW_CTX_TASK_ID='Operation' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T18:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T18:10:00+00:00'
+[2025-05-08T13:10:53.097-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-08T13:10:53.098-0500] {python.py:240} INFO - Done. Returned value was: {'resultado': 'Par', 'decimal': '1228', 'estado': True}
+[2025-05-08T13:10:53.118-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-08T13:10:53.118-0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=request_operation, task_id=Operation, run_id=scheduled__2025-05-08T18:10:00+00:00, execution_date=20250508T181000, start_date=20250508T181052, end_date=20250508T181053
+[2025-05-08T13:10:53.160-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-08T13:10:53.169-0500] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-08T13:10:53.178-0500] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -9,7 +9,7 @@ gmail = "alex.ch.o573@gmail.com",
 password = "dracarys069"
 
 @dag(schedule=timedelta(seconds=40),
-     start_date=datetime(2025,5,1),
+     start_date=datetime(2025,5,8),
      catchup=False)
 def request_operation():
 
@@ -34,13 +34,22 @@ def request_operation():
         return {
             'resultado': 'Par' if int(dec) % 2 == 0 else 'Impar',
             'decimal': dec,
-            'estado': int(dec) % 2 == 0
+            'estado': True
         }
         
     @task
     def RequestTrading(state: bool):
         if state:
-            return 'Operacion Realizada'
+
+            goal = 'EURUSD-OTC'
+            direccion = 'call'  # 'call' or 'put'
+            monto = 3
+            expiracion = 1 # En minutos
+
+            API = ConectionApi(gmail, password)
+            chequeo_op = API.OperationIQ(activo=goal, direccion=direccion, monto=monto, expiracion=expiracion)
+            return chequeo_op
+        
         else:
             return 'Operacion rechazada'
 

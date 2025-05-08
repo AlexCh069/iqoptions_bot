@@ -1,0 +1,19 @@
+[2025-05-08T12:56:07.978-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-08T12:56:07.983-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: request_operation.modoOperacion scheduled__2025-05-08T17:55:20+00:00 [queued]>
+[2025-05-08T12:56:07.986-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: request_operation.modoOperacion scheduled__2025-05-08T17:55:20+00:00 [queued]>
+[2025-05-08T12:56:07.986-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-08T12:56:08.001-0500] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): modoOperacion> on 2025-05-08 17:55:20+00:00
+[2025-05-08T12:56:08.006-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'request_operation', 'modoOperacion', 'scheduled__2025-05-08T17:55:20+00:00', '--job-id', '1550', '--raw', '--subdir', 'DAGS_FOLDER/operations.py', '--cfg-path', '/tmp/tmp63uzweuu']
+[2025-05-08T12:56:08.007-0500] {standard_task_runner.py:105} INFO - Job 1550: Subtask modoOperacion
+[2025-05-08T12:56:08.009-0500] {logging_mixin.py:190} WARNING - /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=60496) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-08T12:56:08.009-0500] {standard_task_runner.py:72} INFO - Started process 60527 to run task
+[2025-05-08T12:56:08.036-0500] {task_command.py:467} INFO - Running <TaskInstance: request_operation.modoOperacion scheduled__2025-05-08T17:55:20+00:00 [running]> on host DESKTOP-0R7MK50.
+[2025-05-08T12:56:08.087-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='request_operation' AIRFLOW_CTX_TASK_ID='modoOperacion' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T17:55:20+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T17:55:20+00:00'
+[2025-05-08T12:56:08.088-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-08T12:56:09.549-0500] {logging_mixin.py:190} WARNING - /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/urllib3/connectionpool.py:1097 InsecureRequestWarning: Unverified HTTPS request is being made to host 'auth.iqoption.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2025-05-08T12:56:11.066-0500] {python.py:240} INFO - Done. Returned value was: Modo PRACTICE. Balance actual: 9913.1
+[2025-05-08T12:56:11.080-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-08T12:56:11.081-0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=request_operation, task_id=modoOperacion, run_id=scheduled__2025-05-08T17:55:20+00:00, execution_date=20250508T175520, start_date=20250508T175607, end_date=20250508T175611
+[2025-05-08T12:56:11.119-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-08T12:56:11.127-0500] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-08T12:56:11.128-0500] {local_task_job_runner.py:245} INFO - ::endgroup::

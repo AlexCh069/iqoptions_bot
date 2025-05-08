@@ -69,11 +69,34 @@ class ConectionApi:
 
         return rt_cdl
     
-    def OperationIQ(self,):
+    # En tu archivo utils/extraction.py, modifica la función OperationIQ:
+
+    def OperationIQ(self, activo, direccion, monto, expiracion):
+        chequeo = self.API.buy(monto, activo, direccion, expiracion)
+        
+        # Verifica primero si chequeo es un diccionario
+        if isinstance(chequeo, dict):
+            if chequeo.get("status"):  # Usamos .get() para evitar KeyError
+                print(f"Operación exitosa! ID: {chequeo['id']}")
+                return chequeo['id'], True
+            else:
+                print(f"Error en operación: {chequeo.get('message', 'Sin mensaje de error')}")
+                return None, False
+        elif isinstance(chequeo, tuple):
+            # Si es una tupla, asumimos que el primer elemento es el estado
+            if chequeo[0]:  # Accedemos por índice
+                print(f"Operación exitosa! Datos: {chequeo}")
+                return chequeo[1], True  # Ajusta según la estructura real
+            else:
+                print(f"Error en operación (tupla): {chequeo}")
+                return None, False
+        else:
+            print(f"Tipo de respuesta inesperado: {type(chequeo)}")
+            return None, False
 
         
 
-        pass
+
     
    
 

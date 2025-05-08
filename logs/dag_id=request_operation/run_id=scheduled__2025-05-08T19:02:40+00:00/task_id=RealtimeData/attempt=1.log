@@ -1,0 +1,19 @@
+[2025-05-08T14:03:23.126-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-08T14:03:23.131-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: request_operation.RealtimeData scheduled__2025-05-08T19:02:40+00:00 [queued]>
+[2025-05-08T14:03:23.135-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: request_operation.RealtimeData scheduled__2025-05-08T19:02:40+00:00 [queued]>
+[2025-05-08T14:03:23.135-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-08T14:03:23.151-0500] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): RealtimeData> on 2025-05-08 19:02:40+00:00
+[2025-05-08T14:03:23.157-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'request_operation', 'RealtimeData', 'scheduled__2025-05-08T19:02:40+00:00', '--job-id', '1965', '--raw', '--subdir', 'DAGS_FOLDER/operations.py', '--cfg-path', '/tmp/tmpj4gnqtcw']
+[2025-05-08T14:03:23.158-0500] {standard_task_runner.py:105} INFO - Job 1965: Subtask RealtimeData
+[2025-05-08T14:03:23.160-0500] {logging_mixin.py:190} WARNING - /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=90854) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-08T14:03:23.160-0500] {standard_task_runner.py:72} INFO - Started process 90885 to run task
+[2025-05-08T14:03:23.185-0500] {task_command.py:467} INFO - Running <TaskInstance: request_operation.RealtimeData scheduled__2025-05-08T19:02:40+00:00 [running]> on host DESKTOP-0R7MK50.
+[2025-05-08T14:03:23.243-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='request_operation' AIRFLOW_CTX_TASK_ID='RealtimeData' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T19:02:40+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T19:02:40+00:00'
+[2025-05-08T14:03:23.244-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-08T14:03:24.520-0500] {logging_mixin.py:190} WARNING - /home/ares/anaconda3/envs/iqoptions_env/lib/python3.12/site-packages/urllib3/connectionpool.py:1097 InsecureRequestWarning: Unverified HTTPS request is being made to host 'auth.iqoption.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2025-05-08T14:03:28.558-0500] {python.py:240} INFO - Done. Returned value was: {1746730980: {'active_id': 1, 'size': 60, 'at': 1746731007000000000, 'from': 1746730980, 'to': 1746731040, 'min_at': 1746730991, 'max_at': 1746730981, 'id': 2809964, 'open': 1.12253, 'close': 1.122485, 'min': 1.122455, 'max': 1.122545, 'ask': 1.1225, 'bid': 1.12247, 'volume': 168, 'phase': 'T'}}
+[2025-05-08T14:03:28.576-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-08T14:03:28.577-0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=request_operation, task_id=RealtimeData, run_id=scheduled__2025-05-08T19:02:40+00:00, execution_date=20250508T190240, start_date=20250508T190323, end_date=20250508T190328
+[2025-05-08T14:03:28.613-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-08T14:03:28.625-0500] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-08T14:03:28.635-0500] {local_task_job_runner.py:245} INFO - ::endgroup::
