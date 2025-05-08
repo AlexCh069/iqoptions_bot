@@ -25,7 +25,17 @@ class ConectionApi:
         else:
             print('conexcion fallida')
 
-    
+    def changeCount(self, account_type:bool = True):
+        if account_type: 
+            self.API.change_balance("PRACTICE")
+            balance = self.API.get_balance()
+            return f"Modo PRACTICE. Balance actual: {balance}"
+
+        else:
+            self.API.change_balance("REAL")
+            balance = self.API.get_balance()
+            return f"Modo REAL. Balance actual: {balance}"
+
     def ExtraccionData(self,range_days: int) -> pd.DataFrame:
         goal = "EURUSD"             #   Mercado
         end_from_time = time.time() #   Ultima marca de tiempo
@@ -48,6 +58,26 @@ class ConectionApi:
         data_more_indicators = calcular_indicadores(data)
 
         return data_more_indicators
+    
+    def RealCandle(self):
+        
+        goal = "EURUSD"
+        time_frame = 60
+
+        st_cdl = self.API.start_candles_stream(goal, time_frame, 1)
+        rt_cdl = self.API.get_realtime_candles(goal, time_frame)
+
+        return rt_cdl
+    
+    def OperationIQ(self,):
+
+        
+
+        pass
+    
+   
+
+
 
 # API = ConectionApi(gmail=gmail, password=password)      
 # candls = API.ExtraccionData(5)
